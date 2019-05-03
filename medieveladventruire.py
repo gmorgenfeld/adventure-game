@@ -15,8 +15,9 @@ type('You have ' + str(points) + ' left!') #'You have ' + str(points) + '  left!
 speed=input('Speed (0-10): ')
 points = points - speed
 type('You have ' + str(points) + ' left!')
-points = points - strength
 percpt=input('Perception (0-10): ')
+points = points - percpt
 type('You have ' + str(points) + ' left!')
 chrsma=input('Charisma (0-10): ')
+points = points - chrsma
 type('You have ' + str(points) + ' left!')
